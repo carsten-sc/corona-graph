@@ -130,27 +130,13 @@ sudo systemctl start carbon-cache
 
 sudo wget https://dl.grafana.com/oss/release/grafana-7.2.2-1.x86_64.rpm
 sudo yum install -y grafana-7.2.2-1.x86_64.rpm
-sudo rm -f 
-sudo systemctl grafana-7.2.2-1.x86_64.rpmenable httpd
+sudo rm -f
 
+sudo systemctl enable httpd
 
-sudo systemctl enable grafana
-sudo systemctl start grafana
+sudo systemctl enable grafana-server
+sudo systemctl start grafana-server
 
-
-PATHINTERN=/intern
-SCRIPT=setup.sh
-FILE=$PATHINTERN/$SCRIPT
-if test -d "$PATHINTERN"; then
-  sudo chown centos:centos $PATHINTERN
-  # Don't break the script if no files were found when bash -e is set
-  sudo chown -R centos:centos $PATHINTERN/* || true
-  sudo chmod +x $PATHINTERN/*.{sh,py} || true
-  if test -f "$FILE"; then
-    pushd $PATHINTERN
-    ./$SCRIPT
-    popd
-  fi
-fi
+curl -X "POST" "http://localhost:3000/api/datasources" -H "Content-Type: application/json" --data-binary @../common/graphite.json --user admin:admin
 
 sudo systemctl start httpd
