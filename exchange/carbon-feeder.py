@@ -160,7 +160,7 @@ def feed(csvfile, suffix):
             values_array.append(summe)
             items_counter = items_counter + 2
 
-            # Create the message for carbon and add it to the messages list
+            # Create the message for carbon and add it to the messages list  
             message = GRAPHITE_ROOT + country + suffix + ' ' + str_value + ' ' + str(timestamp.timestamp())
             messages.append(message)
 
