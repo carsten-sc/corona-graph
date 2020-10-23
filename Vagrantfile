@@ -30,6 +30,8 @@ Vagrant.configure("2") do |config|
       yum update -y
       ls /system
       chmod -R +x /system/{*.py,*.sh} || true
+      # change line endings to lf
+      sed -i 's/\r$//' /system/{*.sh,*.py} || true
       cd /system/centos8
       ./setup-graphite.sh
       ./setup-system.sh

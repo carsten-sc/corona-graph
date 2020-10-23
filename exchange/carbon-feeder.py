@@ -32,7 +32,7 @@ HEAD_STARTPOS = 4
 # Would you set the buffer to 500 and the delay to 0.2 then
 # it's very likely, that you won't find your home country in graphite.
 MESSAGE_BUFFER_SIZE = 150
-MESSAGE_DELAY = 0.4
+MESSAGE_DELAY = 0.5
 
 LOGFILE = 'carbon-feeder.log'
 

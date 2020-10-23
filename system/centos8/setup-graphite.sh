@@ -12,7 +12,7 @@ sudo yum -y install git nmap-ncat httpd-devel
 sudo pip3 install mod_wsgi
 sudo cp /usr/local/lib64/python3.6/site-packages/mod_wsgi/server/mod_wsgi-py36.cpython-36m-x86_64-linux-gnu.so /usr/lib64/httpd/modules/mod_wsgi.so
 
-sudo pip3 install pycairo
+sudo pip3 install pycairo || true
 	
 cd /usr/local/src
 sudo git clone https://github.com/graphite-project/graphite-web.git
@@ -20,9 +20,9 @@ sudo git clone https://github.com/graphite-project/carbon.git
 sudo git clone https://github.com/graphite-project/whisper.git
 #sudo git clone https://github.com/graphite-project/ceres.git
 
-sudo pip3 install -r /usr/local/src/graphite-web/requirements.txt
-sudo pip3 install -r /usr/local/src/carbon/requirements.txt
-sudo pip3 install -r /usr/local/src/whisper/requirements.txt
+sudo pip3 install -r /usr/local/src/graphite-web/requirements.txt || true
+sudo pip3 install -r /usr/local/src/carbon/requirements.txt || true
+sudo pip3 install -r /usr/local/src/whisper/requirements.txt || true
  
 cd /usr/local/src/carbon/
 sudo python3 setup.py install
