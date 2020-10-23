@@ -6,8 +6,8 @@ Vagrant.configure("2") do |config|
   config.vm.box_version = "0.0.1"
   config.vm.box_check_update = false
   config.vm.hostname = "graphite"
-  config.vm.network "forwarded_port", guest: 3000, host: 80
-  config.vm.network "forwarded_port", guest: 80, host: 3000
+  config.vm.network "forwarded_port", guest: 3000, host: 3000
+  config.vm.network "forwarded_port", guest: 80, host: 80
   # carbon port
   config.vm.network "forwarded_port", guest: 2003, host: 2003
   config.vm.network :private_network, ip: "192.168.3.2"
@@ -29,9 +29,9 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
       yum update -y
       ls /system
-      chmod -R +x /system/{*.py,*.sh} || true
+      chmod -R +x /system/centos8/{*.py,*.sh} || true
       # change line endings to lf
-      sed -i 's/\r$//' /system/{*.sh,*.py} || true
+      sed -i 's/\r$//' /system/centos8/{*.sh,*.py} || true
       cd /system/centos8
       ./setup-graphite.sh
       ./setup-system.sh

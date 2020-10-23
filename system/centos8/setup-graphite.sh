@@ -1,4 +1,4 @@
-#! /bin/bash -x
+#! /bin/bash -xe
 
 #exec 1> /home/centos/graphite.log 2>&1
 
@@ -26,12 +26,13 @@ sudo pip3 install -r /usr/local/src/whisper/requirements.txt || true
  
 cd /usr/local/src/carbon/
 sudo python3 setup.py install
+
+cd /usr/local/src/whisper/
+sudo python3 setup.py install
  
 cd /usr/local/src/graphite-web/
 sudo python3 setup.py install
- 
-cd /usr/local/src/whisper/
-sudo python3 setup.py install
+
 
 #cd /usr/local/src/ceres/
 #sudo python3 setup.py install
