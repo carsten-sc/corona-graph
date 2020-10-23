@@ -2,6 +2,8 @@
 test/
 */vagrant_test/
 
+.vagrant
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
