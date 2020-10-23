@@ -29,9 +29,9 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
       yum update -y
       ls /system
-      chmod -R +x /system/{*.py,*.sh} || true
+      chmod -R +x /system/centos8/{*.py,*.sh} || true
       # change line endings to lf
-      sed -i 's/\r$//' /system/{*.sh,*.py} || true
+      sed -i 's/\r$//' /system/centos8/{*.sh,*.py} || true
       cd /system/centos8
       ./setup-graphite.sh
       ./setup-system.sh
