@@ -14,8 +14,11 @@ Vagrant.configure("2") do |config|
   #config.vm.network "bridged"
 
   config.vm.synced_folder "exchange", "/exchange"
-  config.vm.synced_folder "../system", "/system"
+  config.vm.synced_folder "system", "/system"
   #config.vm.synced_folder "intern", "/intern"
+
+  config.ssh.username = "centos"
+  config.ssh.password = "centos"
 
   config.vm.provider "virtualbox" do |vb|
       vb.cpus = 2
@@ -25,20 +28,21 @@ Vagrant.configure("2") do |config|
  
   config.vm.provision "shell", inline: <<-SHELL
       yum update -y
-      cat /etc/fstab
-      mount -a
       ls /system
-      #chmod +x /scripts/*
-      #sudo curl http://192.168.2.101:8000/graphite.sh > /root/graphite.sh
+      chmod -R +x /system/{*.py,*.sh} || true
+      cd /system/centos8
+      ./setup-graphite.sh
+      ./setup-system.sh
+
       #sudo chmod +x /root/graphite.sh
       #sudo /root/graphite.sh
       #sudo /scripts/graphite.sh
       echo done!
   SHELL
 
-  config.ssh.private_key_path = "~/.ssh/id_rsa"
-  config.ssh.forward_agent = true
-  config.ssh.username = "centos"
-  config.ssh.keys_only = true
+  #config.ssh.private_key_path = "~/.ssh/id_rsa"
+  #config.ssh.forward_agent = true
+  #config.ssh.username = "centos"
+  #config.ssh.keys_only = true
   config.ssh.insert_key = false
 end

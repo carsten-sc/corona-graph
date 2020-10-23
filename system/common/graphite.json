@@ -1,0 +1,1 @@
+[{"id":1,"orgId":1,"name":"Graphite","type":"graphite","typeLogoUrl":"public/app/plugins/datasource/graphite/img/graphite_logo.png","access":"proxy","url":"http://localhost:80","password":"","user":"","database":"","basicAuth":false,"isDefault":true,"jsonData":{"graphiteType":"default","httpHeaderName1":"","tlsSkipVerify":true},"readOnly":false}]

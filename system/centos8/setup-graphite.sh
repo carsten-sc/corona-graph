@@ -18,7 +18,7 @@ cd /usr/local/src
 sudo git clone https://github.com/graphite-project/graphite-web.git
 sudo git clone https://github.com/graphite-project/carbon.git
 sudo git clone https://github.com/graphite-project/whisper.git
-sudo git clone https://github.com/graphite-project/ceres.git
+#sudo git clone https://github.com/graphite-project/ceres.git
 
 sudo pip3 install -r /usr/local/src/graphite-web/requirements.txt
 sudo pip3 install -r /usr/local/src/carbon/requirements.txt
@@ -33,8 +33,8 @@ sudo python3 setup.py install
 cd /usr/local/src/whisper/
 sudo python3 setup.py install
 
-cd /usr/local/src/ceres/
-sudo python3 setup.py install
+#cd /usr/local/src/ceres/
+#sudo python3 setup.py install
  
 sudo cp $GRAPHITEBASEDIR/conf/carbon.conf.example $GRAPHITEBASEDIR/conf/carbon.conf
 sudo cp $GRAPHITEBASEDIR/conf/storage-schemas.conf.example $GRAPHITEBASEDIR/conf/storage-schemas.conf
