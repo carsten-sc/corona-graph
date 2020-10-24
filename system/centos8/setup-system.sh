@@ -22,6 +22,8 @@ sudo pip3 install -r requirements.txt
 mkdir .corona-settings
 mkdir logs
 
+popd
+
 crontab <<EOF
 SHELL=/bin/bash
 30 0 * * * service covid-feeder restart 2>&1 
@@ -53,7 +55,6 @@ sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/UTC /etc/localtime
 
 ./carbon-feeder.sh
-popd
 
 
 
