@@ -9,11 +9,12 @@ import sys
 import csv
 import datetime
 from socket import socket
+import argparse
 
 # project specific, needs to be installed
 import requests
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 CARBON_SERVER = '127.0.0.1'
 CARBON_PORT = 2003
@@ -42,6 +43,15 @@ CSV_DEATHS = "time_series_covid19_deaths_global.csv"
 
 CSV_URL = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
 CSV_LOCALPATH = './'
+
+parser = argparse.ArgumentParser('-v', '--version', action='version', version='%(prog)s ' +   VERSION)
+parser.add_argument('-v', '--version')
+parser.add_argument('-h', '--help')
+args = parser.parse_args()
+
+if args.version:
+    print(VERSION)
+    sys.exit
 
 # download data files
 print('DOWNLOADING:')
