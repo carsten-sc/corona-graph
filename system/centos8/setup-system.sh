@@ -43,6 +43,10 @@ exit
 
 sudo systemctl enable covid-feeder.service
 
+# Seting timezone from europe/berlin to utc
+sudo unlink /etc/localtime 
+sudo ln -s /usr/share/zoneinfo/UTC /etc/localtime
+
 #./carbon-feeder.sh
 popd
 
