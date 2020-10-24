@@ -35,7 +35,7 @@ HEAD_STARTPOS = 4
 MESSAGE_BUFFER_SIZE = 150
 MESSAGE_DELAY = 0.5
 
-LOGFILE = 'carbon-feeder.log'
+LOGFILE = 'logs/carbon-feeder.log'
 
 CSV_CONFIRMEND = "time_series_covid19_confirmed_global.csv"
 CSV_DEATHS = "time_series_covid19_deaths_global.csv"
