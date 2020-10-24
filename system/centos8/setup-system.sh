@@ -41,7 +41,7 @@ WantedBy=multi-user.target
 EOF
 exit
 
-sudo systemctl enable corona-carbon-feeder.service
+sudo systemctl enable covid-feeder.service
 
 #./carbon-feeder.sh
 popd
