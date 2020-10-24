@@ -34,7 +34,7 @@ After=network-online.target
 User=centos
 WorkingDirectory=${PATHINTERN}/
 ExecStart=${PATHINTERN}/carbon-feeder.sh
-Type=oneshot
+Type=forking
 
 [Install]
 WantedBy=multi-user.target
