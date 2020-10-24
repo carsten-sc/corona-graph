@@ -22,6 +22,13 @@ sudo pip3 install -r requirements.txt
 mkdir .corona-settings
 mkdir logs
 
+2>&1
+
+crontab <<EOF
+SHELL=/bin/bash
+30 0 * * * service covid-feeder restart 2>&1 
+EOF
+
 sudo su
 cat <<EOF > /etc/systemd/system/covid-feeder.service
 [Unit]
