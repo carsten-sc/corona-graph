@@ -248,7 +248,7 @@ except:
 
 end = timer()
 try:
-    f2 = open(LOGFILE,'w')
+    f2 = open(LOGFILE,'a')
     ts = time.gmtime()
     ts = time.strftime("%x %X", ts)
     d_str = "%8.3f"% (end - start)
