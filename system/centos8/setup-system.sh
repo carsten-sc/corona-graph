@@ -19,6 +19,9 @@ pushd $PATHINTERN
 sudo sed -i 's/\r$//' {*.sh,*.py} || true
 sudo pip3 install -r requirements.txt
 
+mkdir .corona-settings
+mkdir logs
+
 sudo su
 cat <<EOF > /etc/systemd/system/covid-feeder.service
 [Unit]
