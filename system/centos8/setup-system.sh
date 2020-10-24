@@ -20,7 +20,7 @@ sudo sed -i 's/\r$//' {*.sh,*.py} || true
 sudo pip3 install -r requirements.txt
 
 sudo su
-cat <<EOF > /etc/systemd/system/corona-carbon-feeder.service
+cat <<EOF > /etc/systemd/system/covid-feeder.service
 [Unit]
 Description=Corona carbon feeder
 After=network.target
@@ -29,6 +29,7 @@ After=network-online.target
 
 [Service]
 User=centos
+WorkingDirectory=${PATHINTERN}/
 ExecStart=${PATHINTERN}/carbon-feeder.sh
 Type=oneshot
 
