@@ -19,6 +19,7 @@ CARBON_SERVER = '127.0.0.1'
 CARBON_PORT = 2003
 
 LAST_COLUMN_FILE = '.corona-settings/lastcolumn'
+LAST_COLUMN_FILE_LASTRUN = '.corona-settings/lastcolumn-lastrun'
 # Name of the root metric in graphite
 GRAPHITE_ROOT = 'corona.'
 
@@ -70,6 +71,8 @@ except:
     print('Error downloading file!')
     sys.exit(1)
 
+last_index_before = -1
+
 # Check the state of a last import.
 if os.path.isfile(LAST_COLUMN_FILE):
     f = open(LAST_COLUMN_FILE,'r')
@@ -79,6 +82,8 @@ if os.path.isfile(LAST_COLUMN_FILE):
 else:
     print('No import found, starting initial import \n')
     last_index = -1
+
+last_index_before = last_index
 
 print('Connecting to server ' + CARBON_SERVER + ' on port ' + str(CARBON_PORT) + '\n')
 sock = socket()
@@ -243,6 +248,8 @@ try:
     print('Saving last processd column (' + str(result_arr[0]) + ')')
     f2 = open(LAST_COLUMN_FILE,'w')
     f2.writelines(str(result_arr[0] - HEAD_STARTPOS -1))
+    f2 = open(LAST_COLUMN_FILE_LASTRUN,'w')
+    f2.writelines(str(last_index_before))
 except:
     print('Error writing last processed column to ' + LAST_COLUMN_FILE)
 
