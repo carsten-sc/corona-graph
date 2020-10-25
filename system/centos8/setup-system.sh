@@ -1,6 +1,22 @@
 #! /bin/bash
 
 PATHINTERN=/exchange
+GRAPHITEBASEDIR=/opt/graphite
+
+
+# configure carbon retention schema
+
+# we need to add the correct retention at first of the file so we create
+# a new file and append the before moved old one
+
+mv $GRAPHITEBASEDIR/conf/storage-schemas.conf ./storage-schemas.conf
+cat <<EOF > $GRAPHITEBASEDIR/conf/storage-schemas.conf
+[corona_daily]
+pattern = ^corona\.*
+retentions = 1d:10y
+EOF
+
+cat ./storage-schemas.conf >> $GRAPHITEBASEDIR/conf/storage-schemas.conf
 
 # Install the sample dashboard
 curl -X "POST" "http://localhost:3000/api/dashboards/db" -H "Content-Type: application/json" --data-binary @../common/sample_dashboard.json --user admin:admin
