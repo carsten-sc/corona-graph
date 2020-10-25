@@ -232,7 +232,7 @@ def feed(csvfile, suffix):
         if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
         if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-                senddata(confirmed_messages)
+            senddata(confirmed_messages)
         
     # Send the rest
     senddata(messages)
