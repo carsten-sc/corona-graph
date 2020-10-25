@@ -50,9 +50,12 @@ parser = argparse.ArgumentParser(description='Downloads the daily cases file fro
 parser.add_argument('-v', '--version', action='version', version='%(prog)s ' +   VERSION)
 args = parser.parse_args()
 
-if args.version:
-    print(VERSION)
-    sys.exit
+try:
+    if args.version:
+        print(VERSION)
+        sys.exit
+except:
+    None
 
 # download data files
 
@@ -91,7 +94,7 @@ try:
     sock.connect( (CARBON_SERVER,CARBON_PORT) )
 except Exception:
     print("Couldn't connect to %(server)s on port %(port)d, is carbon-agent.py running?" % {
-        'server': CARBON_SERVER, 'port': str(CARBON_PORT)
+        'server': CARBON_SERVER, 'port': CARBON_PORT
     })
     sys.exit(1)
 
