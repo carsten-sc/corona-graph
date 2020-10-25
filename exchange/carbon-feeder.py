@@ -127,6 +127,8 @@ def feed(csvfile, suffix):
     global_array = []
     lastcolumn = len(column_names)
     messages = []
+    # Re added confirmed messages, as it didn't work as expected
+    confirmed_messages = []
     Lines = f.readlines()
     print(str(len(Lines)) + ' Lines found containing ' + str(lastcolumn - HEAD_STARTPOS) + ' data columns')
     items_counter = 0
@@ -174,18 +176,23 @@ def feed(csvfile, suffix):
             timestamp = column_names[i] + ' 00:00:00'
             timestamp = format_timestamp(timestamp)
             message = GRAPHITE_ROOT + country + suffix.replace('daily', 'confirmed') + ' ' + str(int_confirmed) + ' ' + str(timestamp.timestamp())
-            messages.append(message)
+            confirmed_messages.append(message)
 
             if len(messages) >= MESSAGE_BUFFER_SIZE:
                 senddata(messages)
+            if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+                senddata(confirmed_messages)
 
         global_array.append(values_array)
         
         if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
+        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+                senddata(confirmed_messages)
 
     # Send the rest
     senddata(messages)
+    senddata(confirmed_messages)
 
     # Processing the global values
     print('\n')
@@ -220,14 +227,17 @@ def feed(csvfile, suffix):
             global_confirmed = global_confirmed + int(row[i])
 
         message = GRAPHITE_ROOT + "_global"  + suffix.replace('daily', 'confirmed') + ' ' + str(global_confirmed) + ' ' + str(timestamp.timestamp())
-        messages.append(message)
+        confirmed_messages.append(message)
 
         if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
+        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+                senddata(confirmed_messages)
         
     # Send the rest
     senddata(messages)
-
+    senddata(confirmed_messages)
+    
     print('\n')
     ret_arr = [lastcolumn, items_counter]
     return ret_arr
