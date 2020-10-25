@@ -40,6 +40,7 @@ LOGFILE = 'logs/carbon-feeder.log'
 
 CSV_CONFIRMEND = "time_series_covid19_confirmed_global.csv"
 CSV_DEATHS = "time_series_covid19_deaths_global.csv"
+CSV_RECOVERED = "time_series_covid19_recovered_global.csv"
 
 CSV_URL = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
 CSV_LOCALPATH = './'
@@ -231,10 +232,13 @@ def feed(csvfile, suffix):
 
 download_file(CSV_CONFIRMEND)
 download_file(CSV_DEATHS)
+download_file(CSV_RECOVERED)
 
 result_arr = feed(CSV_LOCALPATH + CSV_CONFIRMEND, '_daily_cases')
 items_counter = result_arr[1]
 result_arr = feed(CSV_LOCALPATH + CSV_DEATHS, '_daily_deaths')
+items_counter = items_counter + result_arr[1]
+result_arr = feed(CSV_LOCALPATH + CSV_RECOVERED, '_daily_revovered')
 items_counter = items_counter + result_arr[1]
 
 try:
