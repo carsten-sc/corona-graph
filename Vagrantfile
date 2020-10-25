@@ -25,6 +25,8 @@ Vagrant.configure("2") do |config|
   end
  
   config.vm.provision "shell", inline: <<-SHELL
+      #export no_auto_import = true
+      #export no_initial_import = true
       yum update -y
       chmod -R +x /system/centos8/{*.py,*.sh} || true
       # change line endings to lf

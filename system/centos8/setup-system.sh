@@ -24,10 +24,12 @@ mkdir logs
 
 popd
 
-crontab <<EOF
-SHELL=/bin/bash
-30 0 * * * sudo service covid-feeder restart 2>&1 
+if [ "$no_auto_import" != true ]; then
+  crontab <<EOF
+  SHELL=/bin/bash
+  30 0 * * * sudo service covid-feeder restart 2>&1 
 EOF
+fi
 
 sudo su
 cat <<EOF > /etc/systemd/system/covid-feeder.service
@@ -48,13 +50,17 @@ WantedBy=multi-user.target
 EOF
 exit
 
-sudo systemctl enable covid-feeder.service
+if [ "$no_auto_import" != true ]; then
+  sudo systemctl enable covid-feeder.service
+fi
 
 # Seting timezone from europe/berlin to utc
 sudo unlink /etc/localtime 
 sudo ln -s /usr/share/zoneinfo/UTC /etc/localtime
 
-./carbon-feeder.sh
+if [ "$no_initial_import" != true ]; then
+  ./carbon-feeder.sh
+fi
 
 
 
