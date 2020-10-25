@@ -14,7 +14,7 @@ import argparse
 # project specific, needs to be installed
 import requests
 
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 
 
 CARBON_SERVER = '127.0.0.1'
