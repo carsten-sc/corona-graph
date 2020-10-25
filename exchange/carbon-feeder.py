@@ -54,32 +54,21 @@ if args.version:
     sys.exit
 
 # download data files
-print('DOWNLOADING:')
-try:
-    print(CSV_CONFIRMEND)
-    url = CSV_URL + CSV_CONFIRMEND
-    r = requests.get(url)
 
-    with open(CSV_LOCALPATH + CSV_CONFIRMEND, 'wb') as f:
-        f.write(r.content)
+def download_file(filename):
+    print('DOWNLOADING:')
+    try:
+        print(filename)
+        url = CSV_URL + filename
+        r = requests.get(url)
 
-    print('status: ' + str(r.status_code) + ' ' + str(r.headers['content-type']) + ' ' + str(r.encoding) +'\n')
-except:
-    print('Error downloading file!')
-    sys.exit(1)
+        with open(CSV_LOCALPATH + filename, 'wb') as f:
+            f.write(r.content)
 
-try:
-    print(CSV_DEATHS)
-    url = CSV_URL + CSV_DEATHS
-    r = requests.get(url)
-
-    with open(CSV_LOCALPATH + CSV_DEATHS, 'wb') as f:
-        f.write(r.content)
-
-    print('status: ' + str(r.status_code) + ' ' + str(r.headers['content-type']) + ' ' + str(r.encoding) + '\n')
-except:
-    print('Error downloading file!')
-    sys.exit(1)
+        print('status: ' + str(r.status_code) + ' ' + str(r.headers['content-type']) + ' ' + str(r.encoding) +'\n')
+    except:
+        print('Error downloading file!')
+        sys.exit(1)
 
 last_index_before = -1
 
@@ -139,7 +128,6 @@ def feed(csvfile, suffix):
     items_counter = 0
 
     int_confirmed = 0
-    confirmed_messages = []
 
     global_daily = 0
     for l in Lines:
@@ -182,22 +170,18 @@ def feed(csvfile, suffix):
             timestamp = column_names[i] + ' 00:00:00'
             timestamp = format_timestamp(timestamp)
             message = GRAPHITE_ROOT + country + suffix.replace('daily', 'confirmed') + ' ' + str(int_confirmed) + ' ' + str(timestamp.timestamp())
-            confirmed_messages.append(message)
+            messages.append(message)
 
             if len(messages) >= MESSAGE_BUFFER_SIZE:
                 senddata(messages)
-            if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-                senddata(confirmed_messages)
+
         global_array.append(values_array)
         
-        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+        if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
-        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-            senddata(confirmed_messages)
 
     # Send the rest
     senddata(messages)
-    senddata(confirmed_messages)
 
     # Processing the global values
     print('\n')
@@ -232,22 +216,21 @@ def feed(csvfile, suffix):
             global_confirmed = global_confirmed + int(row[i])
 
         message = GRAPHITE_ROOT + "_global"  + suffix.replace('daily', 'confirmed') + ' ' + str(global_confirmed) + ' ' + str(timestamp.timestamp())
-        confirmed_messages.append(message)
-        
-        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-                senddata(confirmed_messages)
+        messages.append(message)
 
         if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
         
     # Send the rest
     senddata(messages)
-    senddata(confirmed_messages)
 
     print('\n')
     ret_arr = [lastcolumn, items_counter]
     return ret_arr
 # END def feed()
+
+download_file(CSV_CONFIRMEND)
+download_file(CSV_DEATHS)
 
 result_arr = feed(CSV_LOCALPATH + CSV_CONFIRMEND, '_daily_cases')
 items_counter = result_arr[1]
