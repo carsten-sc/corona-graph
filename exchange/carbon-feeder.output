@@ -1,0 +1,2061 @@
+Last imported column: 324
+
+Connecting to server 127.0.0.1 on port 2003
+
+DOWNLOADING:
+time_series_covid19_confirmed_global.csv
+status: 200 text/plain; charset=utf-8 utf-8
+
+DOWNLOADING:
+time_series_covid19_deaths_global.csv
+status: 200 text/plain; charset=utf-8 utf-8
+
+DOWNLOADING:
+time_series_covid19_recovered_global.csv
+status: 200 text/plain; charset=utf-8 utf-8
+
+Reading: ./time_series_covid19_confirmed_global.csv
+274 Lines found containing 437 data columns
+Importing: Afghanistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Albania
+Sending 150 messages to server: 127.0.0.1
+Importing: Algeria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Andorra
+Sending 150 messages to server: 127.0.0.1
+Importing: Angola
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Antigua and Barbuda
+Sending 150 messages to server: 127.0.0.1
+Importing: Argentina
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Armenia
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Australian Capital Territory
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.New South Wales
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Northern Territory
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Queensland
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.South Australia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Tasmania
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Victoria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Western Australia
+Sending 150 messages to server: 127.0.0.1
+Importing: Austria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Azerbaijan
+Sending 150 messages to server: 127.0.0.1
+Importing: Bahamas
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Bahrain
+Sending 150 messages to server: 127.0.0.1
+Importing: Bangladesh
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Barbados
+Sending 150 messages to server: 127.0.0.1
+Importing: Belarus
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Belgium
+Sending 150 messages to server: 127.0.0.1
+Importing: Belize
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Benin
+Sending 150 messages to server: 127.0.0.1
+Importing: Bhutan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Bolivia
+Sending 150 messages to server: 127.0.0.1
+Importing: Bosnia and Herzegovina
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Botswana
+Sending 150 messages to server: 127.0.0.1
+Importing: Brazil
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Brunei
+Sending 150 messages to server: 127.0.0.1
+Importing: Bulgaria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Burkina Faso
+Sending 150 messages to server: 127.0.0.1
+Importing: Burma
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Burundi
+Sending 150 messages to server: 127.0.0.1
+Importing: Cabo Verde
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cambodia
+Sending 150 messages to server: 127.0.0.1
+Importing: Cameroon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Alberta
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.British Columbia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Diamond Princess
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Grand Princess
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Manitoba
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.New Brunswick
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Newfoundland and Labrador
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Northwest Territories
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Nova Scotia
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Nunavut
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Ontario
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Prince Edward Island
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Quebec
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Repatriated Travellers
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Saskatchewan
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Yukon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Central African Republic
+Sending 150 messages to server: 127.0.0.1
+Importing: Chad
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Chile
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Anhui
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Beijing
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Chongqing
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Fujian
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Gansu
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guangdong
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guangxi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guizhou
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hainan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hebei
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Heilongjiang
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Henan
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hong Kong
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hubei
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hunan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Inner Mongolia
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jiangsu
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jiangxi
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jilin
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Liaoning
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Macau
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Ningxia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Qinghai
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shaanxi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shandong
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shanghai
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shanxi
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Sichuan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Tianjin
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Tibet
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Xinjiang
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Yunnan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Zhejiang
+Sending 150 messages to server: 127.0.0.1
+Importing: Colombia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Comoros
+Sending 150 messages to server: 127.0.0.1
+Importing: Congo (Brazzaville)
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Congo (Kinshasa)
+Sending 150 messages to server: 127.0.0.1
+Importing: Costa Rica
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cote d'Ivoire
+Sending 150 messages to server: 127.0.0.1
+Importing: Croatia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cuba
+Sending 150 messages to server: 127.0.0.1
+Importing: Cyprus
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Czechia
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark.Faroe Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark.Greenland
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Diamond Princess
+Sending 150 messages to server: 127.0.0.1
+Importing: Djibouti
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Dominica
+Sending 150 messages to server: 127.0.0.1
+Importing: Dominican Republic
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ecuador
+Sending 150 messages to server: 127.0.0.1
+Importing: Egypt
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: El Salvador
+Sending 150 messages to server: 127.0.0.1
+Importing: Equatorial Guinea
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Eritrea
+Sending 150 messages to server: 127.0.0.1
+Importing: Estonia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Eswatini
+Sending 150 messages to server: 127.0.0.1
+Importing: Ethiopia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Fiji
+Sending 150 messages to server: 127.0.0.1
+Importing: Finland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.French Guiana
+Sending 150 messages to server: 127.0.0.1
+Importing: France.French Polynesia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Guadeloupe
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Martinique
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Mayotte
+Sending 150 messages to server: 127.0.0.1
+Importing: France.New Caledonia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Reunion
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Saint Barthelemy
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Saint Pierre and Miquelon
+Sending 150 messages to server: 127.0.0.1
+Importing: France.St Martin
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Wallis and Futuna
+Sending 150 messages to server: 127.0.0.1
+Importing: France
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Gabon
+Sending 150 messages to server: 127.0.0.1
+Importing: Gambia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Georgia
+Sending 150 messages to server: 127.0.0.1
+Importing: Germany
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ghana
+Sending 150 messages to server: 127.0.0.1
+Importing: Greece
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Grenada
+Sending 150 messages to server: 127.0.0.1
+Importing: Guatemala
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Guinea
+Sending 150 messages to server: 127.0.0.1
+Importing: Guinea-Bissau
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Guyana
+Sending 150 messages to server: 127.0.0.1
+Importing: Haiti
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Holy See
+Sending 150 messages to server: 127.0.0.1
+Importing: Honduras
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Hungary
+Sending 150 messages to server: 127.0.0.1
+Importing: Iceland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: India
+Sending 150 messages to server: 127.0.0.1
+Importing: Indonesia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Iran
+Sending 150 messages to server: 127.0.0.1
+Importing: Iraq
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ireland
+Sending 150 messages to server: 127.0.0.1
+Importing: Israel
+Sending 150 messages to server: 127.0.0.1
+Importing: Italy
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Jamaica
+Sending 150 messages to server: 127.0.0.1
+Importing: Japan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Jordan
+Sending 150 messages to server: 127.0.0.1
+Importing: Kazakhstan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kenya
+Sending 150 messages to server: 127.0.0.1
+Importing: Korea, South
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kosovo
+Sending 150 messages to server: 127.0.0.1
+Importing: Kuwait
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kyrgyzstan
+Sending 150 messages to server: 127.0.0.1
+Importing: Laos
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Latvia
+Sending 150 messages to server: 127.0.0.1
+Importing: Lebanon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Lesotho
+Sending 150 messages to server: 127.0.0.1
+Importing: Liberia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Libya
+Sending 150 messages to server: 127.0.0.1
+Importing: Liechtenstein
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Lithuania
+Sending 150 messages to server: 127.0.0.1
+Importing: Luxembourg
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: MS Zaandam
+Sending 150 messages to server: 127.0.0.1
+Importing: Madagascar
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Malawi
+Sending 150 messages to server: 127.0.0.1
+Importing: Malaysia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Maldives
+Sending 150 messages to server: 127.0.0.1
+Importing: Mali
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Malta
+Sending 150 messages to server: 127.0.0.1
+Importing: Marshall Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mauritania
+Sending 150 messages to server: 127.0.0.1
+Importing: Mauritius
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mexico
+Sending 150 messages to server: 127.0.0.1
+Importing: Micronesia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Moldova
+Sending 150 messages to server: 127.0.0.1
+Importing: Monaco
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mongolia
+Sending 150 messages to server: 127.0.0.1
+Importing: Montenegro
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Morocco
+Sending 150 messages to server: 127.0.0.1
+Importing: Mozambique
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Namibia
+Sending 150 messages to server: 127.0.0.1
+Importing: Nepal
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Aruba
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Bonaire, Sint Eustatius and Saba
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Curacao
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Sint Maarten
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands
+Sending 150 messages to server: 127.0.0.1
+Importing: New Zealand
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Nicaragua
+Sending 150 messages to server: 127.0.0.1
+Importing: Niger
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Nigeria
+Sending 150 messages to server: 127.0.0.1
+Importing: North Macedonia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Norway
+Sending 150 messages to server: 127.0.0.1
+Importing: Oman
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Pakistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Panama
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Papua New Guinea
+Sending 150 messages to server: 127.0.0.1
+Importing: Paraguay
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Peru
+Sending 150 messages to server: 127.0.0.1
+Importing: Philippines
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Poland
+Sending 150 messages to server: 127.0.0.1
+Importing: Portugal
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Qatar
+Sending 150 messages to server: 127.0.0.1
+Importing: Romania
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Russia
+Sending 150 messages to server: 127.0.0.1
+Importing: Rwanda
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Kitts and Nevis
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Lucia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Vincent and the Grenadines
+Sending 150 messages to server: 127.0.0.1
+Importing: Samoa
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: San Marino
+Sending 150 messages to server: 127.0.0.1
+Importing: Sao Tome and Principe
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saudi Arabia
+Sending 150 messages to server: 127.0.0.1
+Importing: Senegal
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Serbia
+Sending 150 messages to server: 127.0.0.1
+Importing: Seychelles
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Sierra Leone
+Sending 150 messages to server: 127.0.0.1
+Importing: Singapore
+Sending 150 messages to server: 127.0.0.1
+Importing: Slovakia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Slovenia
+Sending 150 messages to server: 127.0.0.1
+Importing: Solomon Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Somalia
+Sending 150 messages to server: 127.0.0.1
+Importing: South Africa
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: South Sudan
+Sending 150 messages to server: 127.0.0.1
+Importing: Spain
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Sri Lanka
+Sending 150 messages to server: 127.0.0.1
+Importing: Sudan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Suriname
+Sending 150 messages to server: 127.0.0.1
+Importing: Sweden
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Switzerland
+Sending 150 messages to server: 127.0.0.1
+Importing: Syria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Taiwan*
+Sending 150 messages to server: 127.0.0.1
+Importing: Tajikistan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Tanzania
+Sending 150 messages to server: 127.0.0.1
+Importing: Thailand
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Timor-Leste
+Sending 150 messages to server: 127.0.0.1
+Importing: Togo
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Trinidad and Tobago
+Sending 150 messages to server: 127.0.0.1
+Importing: Tunisia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Turkey
+Sending 150 messages to server: 127.0.0.1
+Importing: US
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Uganda
+Sending 150 messages to server: 127.0.0.1
+Importing: Ukraine
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Arab Emirates
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Anguilla
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Bermuda
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.British Virgin Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Cayman Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Channel Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Falkland Islands (Malvinas)
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Gibraltar
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Isle of Man
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Montserrat
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Saint Helena, Ascension and Tristan da Cunha
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Turks and Caicos Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom
+Sending 150 messages to server: 127.0.0.1
+Importing: Uruguay
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Uzbekistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Vanuatu
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Venezuela
+Sending 150 messages to server: 127.0.0.1
+Importing: Vietnam
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: West Bank and Gaza
+Sending 150 messages to server: 127.0.0.1
+Importing: Yemen
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Zambia
+Sending 150 messages to server: 127.0.0.1
+Importing: Zimbabwe
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Sending 26 messages to server: 127.0.0.1
+
+
+Processing global values.
+Sending 150 messages to server: 127.0.0.1
+Sending 74 messages to server: 127.0.0.1
+
+
+Reading: ./time_series_covid19_deaths_global.csv
+274 Lines found containing 437 data columns
+Importing: Afghanistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Albania
+Sending 150 messages to server: 127.0.0.1
+Importing: Algeria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Andorra
+Sending 150 messages to server: 127.0.0.1
+Importing: Angola
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Antigua and Barbuda
+Sending 150 messages to server: 127.0.0.1
+Importing: Argentina
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Armenia
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Australian Capital Territory
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.New South Wales
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Northern Territory
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Queensland
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.South Australia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Tasmania
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Victoria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Western Australia
+Sending 150 messages to server: 127.0.0.1
+Importing: Austria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Azerbaijan
+Sending 150 messages to server: 127.0.0.1
+Importing: Bahamas
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Bahrain
+Sending 150 messages to server: 127.0.0.1
+Importing: Bangladesh
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Barbados
+Sending 150 messages to server: 127.0.0.1
+Importing: Belarus
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Belgium
+Sending 150 messages to server: 127.0.0.1
+Importing: Belize
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Benin
+Sending 150 messages to server: 127.0.0.1
+Importing: Bhutan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Bolivia
+Sending 150 messages to server: 127.0.0.1
+Importing: Bosnia and Herzegovina
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Botswana
+Sending 150 messages to server: 127.0.0.1
+Importing: Brazil
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Brunei
+Sending 150 messages to server: 127.0.0.1
+Importing: Bulgaria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Burkina Faso
+Sending 150 messages to server: 127.0.0.1
+Importing: Burma
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Burundi
+Sending 150 messages to server: 127.0.0.1
+Importing: Cabo Verde
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cambodia
+Sending 150 messages to server: 127.0.0.1
+Importing: Cameroon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Alberta
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.British Columbia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Diamond Princess
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Grand Princess
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Manitoba
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.New Brunswick
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Newfoundland and Labrador
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Northwest Territories
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Nova Scotia
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Nunavut
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Ontario
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Prince Edward Island
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Quebec
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Repatriated Travellers
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Saskatchewan
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada.Yukon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Central African Republic
+Sending 150 messages to server: 127.0.0.1
+Importing: Chad
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Chile
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Anhui
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Beijing
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Chongqing
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Fujian
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Gansu
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guangdong
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guangxi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guizhou
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hainan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hebei
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Heilongjiang
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Henan
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hong Kong
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hubei
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hunan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Inner Mongolia
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jiangsu
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jiangxi
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jilin
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Liaoning
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Macau
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Ningxia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Qinghai
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shaanxi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shandong
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shanghai
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shanxi
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Sichuan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Tianjin
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Tibet
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Xinjiang
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Yunnan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Zhejiang
+Sending 150 messages to server: 127.0.0.1
+Importing: Colombia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Comoros
+Sending 150 messages to server: 127.0.0.1
+Importing: Congo (Brazzaville)
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Congo (Kinshasa)
+Sending 150 messages to server: 127.0.0.1
+Importing: Costa Rica
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cote d'Ivoire
+Sending 150 messages to server: 127.0.0.1
+Importing: Croatia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cuba
+Sending 150 messages to server: 127.0.0.1
+Importing: Cyprus
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Czechia
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark.Faroe Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark.Greenland
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Diamond Princess
+Sending 150 messages to server: 127.0.0.1
+Importing: Djibouti
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Dominica
+Sending 150 messages to server: 127.0.0.1
+Importing: Dominican Republic
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ecuador
+Sending 150 messages to server: 127.0.0.1
+Importing: Egypt
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: El Salvador
+Sending 150 messages to server: 127.0.0.1
+Importing: Equatorial Guinea
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Eritrea
+Sending 150 messages to server: 127.0.0.1
+Importing: Estonia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Eswatini
+Sending 150 messages to server: 127.0.0.1
+Importing: Ethiopia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Fiji
+Sending 150 messages to server: 127.0.0.1
+Importing: Finland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.French Guiana
+Sending 150 messages to server: 127.0.0.1
+Importing: France.French Polynesia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Guadeloupe
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Martinique
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Mayotte
+Sending 150 messages to server: 127.0.0.1
+Importing: France.New Caledonia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Reunion
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Saint Barthelemy
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Saint Pierre and Miquelon
+Sending 150 messages to server: 127.0.0.1
+Importing: France.St Martin
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Wallis and Futuna
+Sending 150 messages to server: 127.0.0.1
+Importing: France
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Gabon
+Sending 150 messages to server: 127.0.0.1
+Importing: Gambia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Georgia
+Sending 150 messages to server: 127.0.0.1
+Importing: Germany
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ghana
+Sending 150 messages to server: 127.0.0.1
+Importing: Greece
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Grenada
+Sending 150 messages to server: 127.0.0.1
+Importing: Guatemala
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Guinea
+Sending 150 messages to server: 127.0.0.1
+Importing: Guinea-Bissau
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Guyana
+Sending 150 messages to server: 127.0.0.1
+Importing: Haiti
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Holy See
+Sending 150 messages to server: 127.0.0.1
+Importing: Honduras
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Hungary
+Sending 150 messages to server: 127.0.0.1
+Importing: Iceland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: India
+Sending 150 messages to server: 127.0.0.1
+Importing: Indonesia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Iran
+Sending 150 messages to server: 127.0.0.1
+Importing: Iraq
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ireland
+Sending 150 messages to server: 127.0.0.1
+Importing: Israel
+Sending 150 messages to server: 127.0.0.1
+Importing: Italy
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Jamaica
+Sending 150 messages to server: 127.0.0.1
+Importing: Japan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Jordan
+Sending 150 messages to server: 127.0.0.1
+Importing: Kazakhstan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kenya
+Sending 150 messages to server: 127.0.0.1
+Importing: Korea, South
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kosovo
+Sending 150 messages to server: 127.0.0.1
+Importing: Kuwait
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kyrgyzstan
+Sending 150 messages to server: 127.0.0.1
+Importing: Laos
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Latvia
+Sending 150 messages to server: 127.0.0.1
+Importing: Lebanon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Lesotho
+Sending 150 messages to server: 127.0.0.1
+Importing: Liberia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Libya
+Sending 150 messages to server: 127.0.0.1
+Importing: Liechtenstein
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Lithuania
+Sending 150 messages to server: 127.0.0.1
+Importing: Luxembourg
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: MS Zaandam
+Sending 150 messages to server: 127.0.0.1
+Importing: Madagascar
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Malawi
+Sending 150 messages to server: 127.0.0.1
+Importing: Malaysia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Maldives
+Sending 150 messages to server: 127.0.0.1
+Importing: Mali
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Malta
+Sending 150 messages to server: 127.0.0.1
+Importing: Marshall Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mauritania
+Sending 150 messages to server: 127.0.0.1
+Importing: Mauritius
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mexico
+Sending 150 messages to server: 127.0.0.1
+Importing: Micronesia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Moldova
+Sending 150 messages to server: 127.0.0.1
+Importing: Monaco
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mongolia
+Sending 150 messages to server: 127.0.0.1
+Importing: Montenegro
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Morocco
+Sending 150 messages to server: 127.0.0.1
+Importing: Mozambique
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Namibia
+Sending 150 messages to server: 127.0.0.1
+Importing: Nepal
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Aruba
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Bonaire, Sint Eustatius and Saba
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Curacao
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Sint Maarten
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands
+Sending 150 messages to server: 127.0.0.1
+Importing: New Zealand
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Nicaragua
+Sending 150 messages to server: 127.0.0.1
+Importing: Niger
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Nigeria
+Sending 150 messages to server: 127.0.0.1
+Importing: North Macedonia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Norway
+Sending 150 messages to server: 127.0.0.1
+Importing: Oman
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Pakistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Panama
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Papua New Guinea
+Sending 150 messages to server: 127.0.0.1
+Importing: Paraguay
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Peru
+Sending 150 messages to server: 127.0.0.1
+Importing: Philippines
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Poland
+Sending 150 messages to server: 127.0.0.1
+Importing: Portugal
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Qatar
+Sending 150 messages to server: 127.0.0.1
+Importing: Romania
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Russia
+Sending 150 messages to server: 127.0.0.1
+Importing: Rwanda
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Kitts and Nevis
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Lucia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Vincent and the Grenadines
+Sending 150 messages to server: 127.0.0.1
+Importing: Samoa
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: San Marino
+Sending 150 messages to server: 127.0.0.1
+Importing: Sao Tome and Principe
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saudi Arabia
+Sending 150 messages to server: 127.0.0.1
+Importing: Senegal
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Serbia
+Sending 150 messages to server: 127.0.0.1
+Importing: Seychelles
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Sierra Leone
+Sending 150 messages to server: 127.0.0.1
+Importing: Singapore
+Sending 150 messages to server: 127.0.0.1
+Importing: Slovakia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Slovenia
+Sending 150 messages to server: 127.0.0.1
+Importing: Solomon Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Somalia
+Sending 150 messages to server: 127.0.0.1
+Importing: South Africa
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: South Sudan
+Sending 150 messages to server: 127.0.0.1
+Importing: Spain
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Sri Lanka
+Sending 150 messages to server: 127.0.0.1
+Importing: Sudan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Suriname
+Sending 150 messages to server: 127.0.0.1
+Importing: Sweden
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Switzerland
+Sending 150 messages to server: 127.0.0.1
+Importing: Syria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Taiwan*
+Sending 150 messages to server: 127.0.0.1
+Importing: Tajikistan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Tanzania
+Sending 150 messages to server: 127.0.0.1
+Importing: Thailand
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Timor-Leste
+Sending 150 messages to server: 127.0.0.1
+Importing: Togo
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Trinidad and Tobago
+Sending 150 messages to server: 127.0.0.1
+Importing: Tunisia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Turkey
+Sending 150 messages to server: 127.0.0.1
+Importing: US
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Uganda
+Sending 150 messages to server: 127.0.0.1
+Importing: Ukraine
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Arab Emirates
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Anguilla
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Bermuda
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.British Virgin Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Cayman Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Channel Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Falkland Islands (Malvinas)
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Gibraltar
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Isle of Man
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Montserrat
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Saint Helena, Ascension and Tristan da Cunha
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Turks and Caicos Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom
+Sending 150 messages to server: 127.0.0.1
+Importing: Uruguay
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Uzbekistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Vanuatu
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Venezuela
+Sending 150 messages to server: 127.0.0.1
+Importing: Vietnam
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: West Bank and Gaza
+Sending 150 messages to server: 127.0.0.1
+Importing: Yemen
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Zambia
+Sending 150 messages to server: 127.0.0.1
+Importing: Zimbabwe
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Sending 26 messages to server: 127.0.0.1
+
+
+Processing global values.
+Sending 150 messages to server: 127.0.0.1
+Sending 74 messages to server: 127.0.0.1
+
+
+Reading: ./time_series_covid19_recovered_global.csv
+259 Lines found containing 437 data columns
+Importing: Afghanistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Albania
+Sending 150 messages to server: 127.0.0.1
+Importing: Algeria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Andorra
+Sending 150 messages to server: 127.0.0.1
+Importing: Angola
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Antigua and Barbuda
+Sending 150 messages to server: 127.0.0.1
+Importing: Argentina
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Armenia
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Australian Capital Territory
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.New South Wales
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Northern Territory
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Queensland
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.South Australia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Tasmania
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Victoria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Australia.Western Australia
+Sending 150 messages to server: 127.0.0.1
+Importing: Austria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Azerbaijan
+Sending 150 messages to server: 127.0.0.1
+Importing: Bahamas
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Bahrain
+Sending 150 messages to server: 127.0.0.1
+Importing: Bangladesh
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Barbados
+Sending 150 messages to server: 127.0.0.1
+Importing: Belarus
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Belgium
+Sending 150 messages to server: 127.0.0.1
+Importing: Belize
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Benin
+Sending 150 messages to server: 127.0.0.1
+Importing: Bhutan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Bolivia
+Sending 150 messages to server: 127.0.0.1
+Importing: Bosnia and Herzegovina
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Botswana
+Sending 150 messages to server: 127.0.0.1
+Importing: Brazil
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Brunei
+Sending 150 messages to server: 127.0.0.1
+Importing: Bulgaria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Burkina Faso
+Sending 150 messages to server: 127.0.0.1
+Importing: Burma
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Burundi
+Sending 150 messages to server: 127.0.0.1
+Importing: Cabo Verde
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cambodia
+Sending 150 messages to server: 127.0.0.1
+Importing: Cameroon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Canada
+Sending 150 messages to server: 127.0.0.1
+Importing: Central African Republic
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Chad
+Sending 150 messages to server: 127.0.0.1
+Importing: Chile
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Anhui
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Beijing
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Chongqing
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Fujian
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Gansu
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guangdong
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guangxi
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Guizhou
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hainan
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hebei
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Heilongjiang
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Henan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hong Kong
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hubei
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Hunan
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Inner Mongolia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jiangsu
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jiangxi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Jilin
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Liaoning
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Macau
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Ningxia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Qinghai
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shaanxi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shandong
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shanghai
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Shanxi
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Sichuan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Tianjin
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Tibet
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Xinjiang
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Yunnan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: China.Zhejiang
+Sending 150 messages to server: 127.0.0.1
+Importing: Colombia
+Sending 150 messages to server: 127.0.0.1
+Importing: Comoros
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Congo (Brazzaville)
+Sending 150 messages to server: 127.0.0.1
+Importing: Congo (Kinshasa)
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Costa Rica
+Sending 150 messages to server: 127.0.0.1
+Importing: Cote d'Ivoire
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Croatia
+Sending 150 messages to server: 127.0.0.1
+Importing: Cuba
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Cyprus
+Sending 150 messages to server: 127.0.0.1
+Importing: Czechia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark.Faroe Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark.Greenland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Denmark
+Sending 150 messages to server: 127.0.0.1
+Importing: Diamond Princess
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Djibouti
+Sending 150 messages to server: 127.0.0.1
+Importing: Dominica
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Dominican Republic
+Sending 150 messages to server: 127.0.0.1
+Importing: Ecuador
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Egypt
+Sending 150 messages to server: 127.0.0.1
+Importing: El Salvador
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Equatorial Guinea
+Sending 150 messages to server: 127.0.0.1
+Importing: Eritrea
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Estonia
+Sending 150 messages to server: 127.0.0.1
+Importing: Eswatini
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ethiopia
+Sending 150 messages to server: 127.0.0.1
+Importing: Fiji
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Finland
+Sending 150 messages to server: 127.0.0.1
+Importing: France.French Guiana
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.French Polynesia
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Guadeloupe
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Martinique
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Mayotte
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.New Caledonia
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Reunion
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Saint Barthelemy
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Saint Pierre and Miquelon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France.St Martin
+Sending 150 messages to server: 127.0.0.1
+Importing: France.Wallis and Futuna
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: France
+Sending 150 messages to server: 127.0.0.1
+Importing: Gabon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Gambia
+Sending 150 messages to server: 127.0.0.1
+Importing: Georgia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Germany
+Sending 150 messages to server: 127.0.0.1
+Importing: Ghana
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Greece
+Sending 150 messages to server: 127.0.0.1
+Importing: Grenada
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Guatemala
+Sending 150 messages to server: 127.0.0.1
+Importing: Guinea
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Guinea-Bissau
+Sending 150 messages to server: 127.0.0.1
+Importing: Guyana
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Haiti
+Sending 150 messages to server: 127.0.0.1
+Importing: Holy See
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Honduras
+Sending 150 messages to server: 127.0.0.1
+Importing: Hungary
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Iceland
+Sending 150 messages to server: 127.0.0.1
+Importing: India
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Indonesia
+Sending 150 messages to server: 127.0.0.1
+Importing: Iran
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Iraq
+Sending 150 messages to server: 127.0.0.1
+Importing: Ireland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Israel
+Sending 150 messages to server: 127.0.0.1
+Importing: Italy
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Jamaica
+Sending 150 messages to server: 127.0.0.1
+Importing: Japan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Jordan
+Sending 150 messages to server: 127.0.0.1
+Importing: Kazakhstan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kenya
+Sending 150 messages to server: 127.0.0.1
+Importing: Korea, South
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kosovo
+Sending 150 messages to server: 127.0.0.1
+Importing: Kuwait
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Kyrgyzstan
+Sending 150 messages to server: 127.0.0.1
+Importing: Laos
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Latvia
+Sending 150 messages to server: 127.0.0.1
+Importing: Lebanon
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Lesotho
+Sending 150 messages to server: 127.0.0.1
+Importing: Liberia
+Sending 150 messages to server: 127.0.0.1
+Importing: Libya
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Liechtenstein
+Sending 150 messages to server: 127.0.0.1
+Importing: Lithuania
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Luxembourg
+Sending 150 messages to server: 127.0.0.1
+Importing: MS Zaandam
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Madagascar
+Sending 150 messages to server: 127.0.0.1
+Importing: Malawi
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Malaysia
+Sending 150 messages to server: 127.0.0.1
+Importing: Maldives
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mali
+Sending 150 messages to server: 127.0.0.1
+Importing: Malta
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Marshall Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: Mauritania
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mauritius
+Sending 150 messages to server: 127.0.0.1
+Importing: Mexico
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Micronesia
+Sending 150 messages to server: 127.0.0.1
+Importing: Moldova
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Monaco
+Sending 150 messages to server: 127.0.0.1
+Importing: Mongolia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Montenegro
+Sending 150 messages to server: 127.0.0.1
+Importing: Morocco
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Mozambique
+Sending 150 messages to server: 127.0.0.1
+Importing: Namibia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Nepal
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Aruba
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Bonaire, Sint Eustatius and Saba
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Curacao
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands.Sint Maarten
+Sending 150 messages to server: 127.0.0.1
+Importing: Netherlands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: New Zealand
+Sending 150 messages to server: 127.0.0.1
+Importing: Nicaragua
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Niger
+Sending 150 messages to server: 127.0.0.1
+Importing: Nigeria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: North Macedonia
+Sending 150 messages to server: 127.0.0.1
+Importing: Norway
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Oman
+Sending 150 messages to server: 127.0.0.1
+Importing: Pakistan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Panama
+Sending 150 messages to server: 127.0.0.1
+Importing: Papua New Guinea
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Paraguay
+Sending 150 messages to server: 127.0.0.1
+Importing: Peru
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Philippines
+Sending 150 messages to server: 127.0.0.1
+Importing: Poland
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Portugal
+Sending 150 messages to server: 127.0.0.1
+Importing: Qatar
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Romania
+Sending 150 messages to server: 127.0.0.1
+Importing: Russia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Rwanda
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Kitts and Nevis
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Lucia
+Sending 150 messages to server: 127.0.0.1
+Importing: Saint Vincent and the Grenadines
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Samoa
+Sending 150 messages to server: 127.0.0.1
+Importing: San Marino
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Sao Tome and Principe
+Sending 150 messages to server: 127.0.0.1
+Importing: Saudi Arabia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Senegal
+Sending 150 messages to server: 127.0.0.1
+Importing: Serbia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Seychelles
+Sending 150 messages to server: 127.0.0.1
+Importing: Sierra Leone
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Singapore
+Sending 150 messages to server: 127.0.0.1
+Importing: Slovakia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Slovenia
+Sending 150 messages to server: 127.0.0.1
+Importing: Solomon Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Somalia
+Sending 150 messages to server: 127.0.0.1
+Importing: South Africa
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: South Sudan
+Sending 150 messages to server: 127.0.0.1
+Importing: Spain
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Sri Lanka
+Sending 150 messages to server: 127.0.0.1
+Importing: Sudan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Suriname
+Sending 150 messages to server: 127.0.0.1
+Importing: Sweden
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Switzerland
+Sending 150 messages to server: 127.0.0.1
+Importing: Syria
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Taiwan*
+Sending 150 messages to server: 127.0.0.1
+Importing: Tajikistan
+Sending 150 messages to server: 127.0.0.1
+Importing: Tanzania
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Thailand
+Sending 150 messages to server: 127.0.0.1
+Importing: Timor-Leste
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Togo
+Sending 150 messages to server: 127.0.0.1
+Importing: Trinidad and Tobago
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Tunisia
+Sending 150 messages to server: 127.0.0.1
+Importing: Turkey
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: US
+Sending 150 messages to server: 127.0.0.1
+Importing: Uganda
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Ukraine
+Sending 150 messages to server: 127.0.0.1
+Importing: United Arab Emirates
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Anguilla
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Bermuda
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.British Virgin Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Cayman Islands
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Channel Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Falkland Islands (Malvinas)
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Gibraltar
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Isle of Man
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Montserrat
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Saint Helena, Ascension and Tristan da Cunha
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom.Turks and Caicos Islands
+Sending 150 messages to server: 127.0.0.1
+Importing: United Kingdom
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Uruguay
+Sending 150 messages to server: 127.0.0.1
+Importing: Uzbekistan
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Vanuatu
+Sending 150 messages to server: 127.0.0.1
+Importing: Venezuela
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Vietnam
+Sending 150 messages to server: 127.0.0.1
+Importing: West Bank and Gaza
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Yemen
+Sending 150 messages to server: 127.0.0.1
+Importing: Zambia
+Sending 150 messages to server: 127.0.0.1
+Sending 150 messages to server: 127.0.0.1
+Importing: Zimbabwe
+Sending 150 messages to server: 127.0.0.1
+Sending 116 messages to server: 127.0.0.1
+
+
+Processing global values.
+Sending 150 messages to server: 127.0.0.1
+Sending 74 messages to server: 127.0.0.1
+
+
+Saving last processd column (441)
+Logging timestamp, items processed and duration in seconds to: logs/carbon-feeder.log
+04/03/21 10:11:18 -- 181440 -- 628.232
+Done!

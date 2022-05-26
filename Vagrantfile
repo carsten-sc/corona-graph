@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "carsten-sc/centos8-stream-core"
   config.vm.box_version = "0.0.1"
-  config.vm.box_check_update = false
+  config.vm.box_check_update = true
   config.vm.hostname = "graphite"
   config.vm.network "forwarded_port", guest: 3000, host: 3000
   config.vm.network "forwarded_port", guest: 80, host: 80

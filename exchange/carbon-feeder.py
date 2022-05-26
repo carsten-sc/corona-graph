@@ -9,16 +9,19 @@ import sys
 import csv
 import datetime
 from socket import socket
+import argparse
 
 # project specific, needs to be installed
 import requests
 
-VERSION = '1.0.0'
+VERSION = '1.0.2'
+
 
 CARBON_SERVER = '127.0.0.1'
 CARBON_PORT = 2003
 
 LAST_COLUMN_FILE = '.corona-settings/lastcolumn'
+LAST_COLUMN_FILE_LASTRUN = '.corona-settings/lastcolumn-lastrun'
 # Name of the root metric in graphite
 GRAPHITE_ROOT = 'corona.'
 
@@ -34,41 +37,44 @@ HEAD_STARTPOS = 4
 MESSAGE_BUFFER_SIZE = 150
 MESSAGE_DELAY = 0.5
 
-LOGFILE = 'carbon-feeder.log'
+LOGFILE = 'logs/carbon-feeder.log'
 
 CSV_CONFIRMEND = "time_series_covid19_confirmed_global.csv"
 CSV_DEATHS = "time_series_covid19_deaths_global.csv"
+CSV_RECOVERED = "time_series_covid19_recovered_global.csv"
 
 CSV_URL = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
 CSV_LOCALPATH = './'
 
+parser = argparse.ArgumentParser(description='Downloads the daily cases file from CSSEGI and send them to carbon')
+parser.add_argument('-v', '--version', action='version', version='%(prog)s ' +   VERSION)
+args = parser.parse_args()
+
+try:
+    if args.version:
+        print(VERSION)
+        sys.exit
+except:
+    None
+
 # download data files
-print('DOWNLOADING:')
-try:
-    print(CSV_CONFIRMEND)
-    url = CSV_URL + CSV_CONFIRMEND
-    r = requests.get(url)
 
-    with open(CSV_LOCALPATH + CSV_CONFIRMEND, 'wb') as f:
-        f.write(r.content)
+def download_file(filename):
+    print('DOWNLOADING:')
+    try:
+        print(filename)
+        url = CSV_URL + filename
+        r = requests.get(url)
 
-    print('status: ' + str(r.status_code) + ' ' + str(r.headers['content-type']) + ' ' + str(r.encoding) +'\n')
-except:
-    print('Error downloading file!')
-    sys.exit(1)
+        with open(CSV_LOCALPATH + filename, 'wb') as f:
+            f.write(r.content)
 
-try:
-    print(CSV_DEATHS)
-    url = CSV_URL + CSV_DEATHS
-    r = requests.get(url)
+        print('status: ' + str(r.status_code) + ' ' + str(r.headers['content-type']) + ' ' + str(r.encoding) +'\n')
+    except:
+        print('Error downloading file!')
+        sys.exit(1)
 
-    with open(CSV_LOCALPATH + CSV_DEATHS, 'wb') as f:
-        f.write(r.content)
-
-    print('status: ' + str(r.status_code) + ' ' + str(r.headers['content-type']) + ' ' + str(r.encoding) + '\n')
-except:
-    print('Error downloading file!')
-    sys.exit(1)
+last_index_before = -1
 
 # Check the state of a last import.
 if os.path.isfile(LAST_COLUMN_FILE):
@@ -80,13 +86,15 @@ else:
     print('No import found, starting initial import \n')
     last_index = -1
 
+last_index_before = last_index
+
 print('Connecting to server ' + CARBON_SERVER + ' on port ' + str(CARBON_PORT) + '\n')
 sock = socket()
 try:
     sock.connect( (CARBON_SERVER,CARBON_PORT) )
 except Exception:
     print("Couldn't connect to %(server)s on port %(port)d, is carbon-agent.py running?" % {
-        'server': CARBON_SERVER, 'port': str(CARBON_PORT)
+        'server': CARBON_SERVER, 'port': CARBON_PORT
     })
     sys.exit(1)
 
@@ -124,7 +132,6 @@ def feed(csvfile, suffix):
     items_counter = 0
 
     int_confirmed = 0
-    confirmed_messages = []
 
     global_daily = 0
     for l in Lines:
@@ -160,29 +167,25 @@ def feed(csvfile, suffix):
             values_array.append(summe)
             items_counter = items_counter + 2
 
-            # Create the message for carbon and add it to the messages list
+            # Create the message for carbon and add it to the messages list  
             message = GRAPHITE_ROOT + country + suffix + ' ' + str_value + ' ' + str(timestamp.timestamp())
             messages.append(message)
 
             timestamp = column_names[i] + ' 00:00:00'
             timestamp = format_timestamp(timestamp)
             message = GRAPHITE_ROOT + country + suffix.replace('daily', 'confirmed') + ' ' + str(int_confirmed) + ' ' + str(timestamp.timestamp())
-            confirmed_messages.append(message)
+            messages.append(message)
 
             if len(messages) >= MESSAGE_BUFFER_SIZE:
                 senddata(messages)
-            if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-                senddata(confirmed_messages)
+
         global_array.append(values_array)
         
-        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+        if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
-        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-            senddata(confirmed_messages)
 
     # Send the rest
     senddata(messages)
-    senddata(confirmed_messages)
 
     # Processing the global values
     print('\n')
@@ -217,38 +220,42 @@ def feed(csvfile, suffix):
             global_confirmed = global_confirmed + int(row[i])
 
         message = GRAPHITE_ROOT + "_global"  + suffix.replace('daily', 'confirmed') + ' ' + str(global_confirmed) + ' ' + str(timestamp.timestamp())
-        confirmed_messages.append(message)
-        
-        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
-                senddata(confirmed_messages)
+        messages.append(message)
 
         if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
         
     # Send the rest
     senddata(messages)
-    senddata(confirmed_messages)
 
     print('\n')
     ret_arr = [lastcolumn, items_counter]
     return ret_arr
 # END def feed()
 
+download_file(CSV_CONFIRMEND)
+download_file(CSV_DEATHS)
+download_file(CSV_RECOVERED)
+
 result_arr = feed(CSV_LOCALPATH + CSV_CONFIRMEND, '_daily_cases')
 items_counter = result_arr[1]
 result_arr = feed(CSV_LOCALPATH + CSV_DEATHS, '_daily_deaths')
+items_counter = items_counter + result_arr[1]
+result_arr = feed(CSV_LOCALPATH + CSV_RECOVERED, '_daily_revovered')
 items_counter = items_counter + result_arr[1]
 
 try:
     print('Saving last processd column (' + str(result_arr[0]) + ')')
     f2 = open(LAST_COLUMN_FILE,'w')
     f2.writelines(str(result_arr[0] - HEAD_STARTPOS -1))
+    f2 = open(LAST_COLUMN_FILE_LASTRUN,'w')
+    f2.writelines(str(last_index_before))
 except:
     print('Error writing last processed column to ' + LAST_COLUMN_FILE)
 
 end = timer()
 try:
-    f2 = open(LOGFILE,'w')
+    f2 = open(LOGFILE,'a')
     ts = time.gmtime()
     ts = time.strftime("%x %X", ts)
     d_str = "%8.3f"% (end - start)
