@@ -14,7 +14,7 @@ import argparse
 # project specific, needs to be installed
 import requests
 
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 
 
 CARBON_SERVER = '127.0.0.1'
@@ -127,6 +127,8 @@ def feed(csvfile, suffix):
     global_array = []
     lastcolumn = len(column_names)
     messages = []
+    # Re added confirmed messages, as it didn't work as expected
+    confirmed_messages = []
     Lines = f.readlines()
     print(str(len(Lines)) + ' Lines found containing ' + str(lastcolumn - HEAD_STARTPOS) + ' data columns')
     items_counter = 0
@@ -178,6 +180,11 @@ def feed(csvfile, suffix):
 
             if len(messages) >= MESSAGE_BUFFER_SIZE:
                 senddata(messages)
+<<<<<<< HEAD
+=======
+            if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+                senddata(confirmed_messages)
+>>>>>>> b441a4ac003d94da50f748c288c1eb98b250e1a1
 
         global_array.append(values_array)
         
@@ -220,10 +227,16 @@ def feed(csvfile, suffix):
             global_confirmed = global_confirmed + int(row[i])
 
         message = GRAPHITE_ROOT + "_global"  + suffix.replace('daily', 'confirmed') + ' ' + str(global_confirmed) + ' ' + str(timestamp.timestamp())
+<<<<<<< HEAD
         messages.append(message)
+=======
+        confirmed_messages.append(message)
+>>>>>>> b441a4ac003d94da50f748c288c1eb98b250e1a1
 
         if len(messages) >= MESSAGE_BUFFER_SIZE:
             senddata(messages)
+        if len(confirmed_messages) >= MESSAGE_BUFFER_SIZE:
+            senddata(confirmed_messages)
         
     # Send the rest
     senddata(messages)

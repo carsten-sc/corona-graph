@@ -3,6 +3,7 @@ test/
 */vagrant_test/
 
 .vagrant
+*.code-workspace
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
